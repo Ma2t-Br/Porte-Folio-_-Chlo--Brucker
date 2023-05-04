@@ -149,7 +149,7 @@ img.project-image {
 
 .project-info {
     text-align: center;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -297,6 +297,10 @@ img.project-image {
 img.experience-image {
     width: auto;
     height: 50px;
+    margin-left: 100px;
+}
+#WantoHype {
+    margin-left: 67px;
 }
 
 .experience-title {
