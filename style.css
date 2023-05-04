@@ -13,7 +13,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--Main-color);
+    background-color: #e0e0e0;
     background-size: cover;
     background-position: center;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    background-color: var(--Background-color);
+    background-color: #f2f2f2;
     padding: 1em 0;
 }
 
@@ -55,7 +55,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: var(--TextNav-color);
+    color: #d2d2d2;
     text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ h2 {
     width: auto;
     height: auto;
     border-radius: 30px;
-    background: var(--Main-color);
+    background: #e0e0e0;
     box-shadow: 5px 5px 15px #bebebe,
                 -5px -5px 15px #ffffff;
 }   
@@ -76,19 +76,18 @@ h2 {
     text-align: center;
     padding: auto 2px;
     margin-bottom: 1em;
-    color: var(--Background-color);
+    color: #ffffff;
 }
 
 #card {
     padding: 1.5em;
     border-radius: 30px;
-    background: var(--Main-color);
+    background: #e0e0e0;
     box-shadow: 5px 5px 15px #bebebe,
                 -5px -5px 15px #ffffff;
 }
     #card:hover {
-        box-shadow: 5px 5px 15px rgb(25, 25, 25),
-                -5px -5px 15px rgb(56, 115, 255);
+        box-shadow: -5px -5px 15px rgb(255, 158, 241);
     }
 
 img.profile-picture {
@@ -111,7 +110,7 @@ img.profile-picture {
 .about-text {
     text-align: justify;
     margin: 0px;
-    color: var(--Text-color);
+    color: #000000;
 }
 
 .projects-container {
@@ -157,13 +156,13 @@ img.project-image {
 
 .project-title {
     margin-top: 1em;
-    color: var(--Text-color);
+    color: #000000;
 }
 
 .project-description {
     text-align: justify;
     margin-top: 1em;
-    color: var(--Text-color);
+    color: #000000;
     display: none;
     opacity: 0;
     transition: opacity 1s;
@@ -201,13 +200,13 @@ img.project-image {
 
 .education-title {
     text-align: center;
-    color: var(--Text-color);
+    color: #000000;
 }
 
 .education-description {
     text-align: center;
     margin-top: 1em;
-    color: var(--Text-color);
+    color: #000000;
 }
 
 .skills-container {
@@ -232,13 +231,13 @@ img.project-image {
 
 .skill-title {
     text-align: center;
-    color: var(--Text-color);
+    color: #000000;
 }
 
 .skill-level {
     height: 10px;
     width: 100%;
-    background-color: var(--TextNav-color);
+    background-color: #000000;
     border-radius: 5px;
     margin-top: 1em;
 }
@@ -246,7 +245,6 @@ img.project-image {
 #skill-level-bar {
     height: 100%;
     border-radius: 5px;
-    border: 1px solid black;
 }
 
     .skill-card:hover #skill-level-bar {
@@ -262,22 +260,22 @@ img.project-image {
     .skill-card:hover .details-skill-level-bar {
         opacity: 1;
         margin: 9px 0px 0px 0px;
-        color: var(--Text-color);
+        color: #000000;
         font-style: bold;
         transition: 0.3s;
     }
 
-.skill-level-bar-1 { width: 80%; background-color: #3498db; }
+.skill-level-bar-1 { width: 40%; background-color: #3498db; }
 
-.skill-level-bar-2 { width: 80%; background-color: #3498db; }
+.skill-level-bar-2 { width: 100%; background-color: #3498db; }
 
-.skill-level-bar-3 { width: 50%; background-color: #3498db; }
+.skill-level-bar-3 { width: 60%; background-color: #3498db; }
 
-.skill-level-bar-4 { width: 30%; background-color: #3498db; }
+.skill-level-bar-4 { width: 50%; background-color: #3498db; }
 
-.skill-level-bar-5 { width: 50%; background-color: #006e16; }
+.skill-level-bar-5 { width: 90%; background-color: #006e16; }
 
-.skill-level-bar-6 { width: 50%; background-color: #006e16; }
+.skill-level-bar-6 { width: 40%; background-color: #006e16; }
 
 .experience-container {
     display: flex;
@@ -293,7 +291,7 @@ img.project-image {
 .experience-card {
     width: auto;
     margin-bottom: 2em;
-    height: 280px;
+    height: 365px;
 }
 
 img.experience-image {
@@ -303,19 +301,19 @@ img.experience-image {
 
 .experience-title {
     text-align: center;
-    color: var(--Text-color);
+    color: #000000;
 }
 
 .experience-description {
     text-align: justify;
     margin-top: 1em;
-    color: var(--Text-color);
+    color: #000000;
 }
 
 .experience-dates {
     text-align: center;
     margin-top: 1em;
-    color: var(--Text-color);
+    color: #000000;
 }
 
 .contact-container {
@@ -331,6 +329,7 @@ form {
 form label {
     display: block;
     margin-bottom: 0.5em;
+    color: #000000;
 }
 
 form input[type="text"],
@@ -353,7 +352,7 @@ form textarea {
 }
 
 footer {
-    background-color: var(--Background-color);
+    background-color: #f2f2f2;
     padding: 1em 0;
     text-align: center;
 }
@@ -361,7 +360,7 @@ footer {
 li.neumorphic-button {
     width: auto;
     height: auto;
-    background-color: var(--Background-color);
+    background-color: #f2f2f2;
     border-radius: 25px;
     box-shadow: 2px 2px 10px #d9d9d9, -2px -2px 10px #ffffff;
     cursor: pointer;
@@ -373,9 +372,9 @@ li.neumorphic-button {
 
 li.neumorphic-button:hover{
     border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow: inset 20px 20px 60px #bebebe,
-                inset -20px -20px 60px #ffffff;
+    background: #f2f2f2;
+    box-shadow: inset 2px 2px 10px #d9d9d9,
+                inset -2px -2px 10px #ffffff;
 }
 
 li.neumorphic-button a {
@@ -387,7 +386,7 @@ li.neumorphic-button a {
 .neumorphic-button-download {
     width: max-content;
     height: auto;
-    background-color: var(--DownloadButton-color);
+    background-color: #d2d2d2;
     border-radius: 25px;
     box-shadow: 2px 2px 10px #3b3b3b, -2px -2px 10px #5c5c5c;
     cursor: pointer;
@@ -411,12 +410,8 @@ li.neumorphic-button a {
     font-weight: bold;
 }
 
-form label {
-    color: var(--Text-color);
-}
-
 .contact-text {
-    color: var(--Text-color);
+    color: #000000;
 }
 
 .contacts {
